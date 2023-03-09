@@ -1,4 +1,4 @@
-package com.bridgelabz;
+
 
 import java.util.Scanner;
 
@@ -7,14 +7,14 @@ public class PowerOfTwo {
         Scanner scanner = new Scanner(System.in);
         int num=scanner.nextInt();
 
-//        do {
-//            System.out.print("Enter Power of N: ");
-//            while (!scanner.hasNextInt()) {
-//                System.out.println(" Please try again.");
-//                scanner.next();=
-//            }
-//            num = scanner.nextInt();
-//        } while (num < 32);
+        do {
+           System.out.print("Enter Power of N: ");
+          while (!scanner.hasNextInt()) {
+                System.out.println(" Please try again.");
+                scanner.next();=
+           }
+           num = scanner.nextInt();
+       } while (num < 32);
 
 
 
